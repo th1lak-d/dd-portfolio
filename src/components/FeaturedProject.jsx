@@ -54,6 +54,20 @@ export default function FeaturedProject() {
           </p>
         </Reveal>
 
+        <Reveal className="mt-10">
+          <div className="font-mono text-xs text-muted dark:text-muted-d tracking-widest uppercase mb-3">
+            demo
+          </div>
+          <div className="border border-line dark:border-line-d rounded-lg overflow-hidden bg-panel/30 dark:bg-panel-d/30">
+            <img
+              src="https://github.com/th1lak-d/SocCraft/raw/main/assets/github1.gif"
+              alt="SocCraft demo — automated detection and response pipeline"
+              className="w-full h-auto block"
+              loading="lazy"
+            />
+          </div>
+        </Reveal>
+
         <Reveal className="mt-12 grid md:grid-cols-2 gap-6">
           {features.map((f) => (
             <div
@@ -94,7 +108,7 @@ export default function FeaturedProject() {
         </Reveal>
 
         <Reveal className="mt-12 flex flex-wrap gap-4">
-          <a
+          
             href="https://github.com/th1lak-d/SocCraft"
             target="_blank"
             rel="noreferrer"
