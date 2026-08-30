@@ -16,6 +16,13 @@ body {
   padding: 0;
   background-color: #fafaf9;
   color: #14181f;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html.dark,
+html.dark body {
+  background-color: #14161a;
+  color: #f2f1ed;
 }
 
 body {
