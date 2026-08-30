@@ -108,7 +108,7 @@ export default function FeaturedProject() {
         </Reveal>
 
         <Reveal className="mt-12 flex flex-wrap gap-4">
-          
+          <a
             href="https://github.com/th1lak-d/SocCraft"
             target="_blank"
             rel="noreferrer"
