@@ -38,16 +38,16 @@ const features = [
 
 export default function FeaturedProject() {
   return (
-    <section id="soccraft" className="border-b border-line">
+    <section id="soccraft" className="border-b border-line dark:border-line-d">
       <div className="max-w-5xl mx-auto px-6 md:px-10 py-24">
         <Reveal>
-          <div className="font-mono text-xs text-muted tracking-widest uppercase mb-3">
+          <div className="font-mono text-xs text-muted dark:text-muted-d tracking-widest uppercase mb-3">
             featured project — 001
           </div>
-          <h2 className="font-display font-semibold text-4xl md:text-5xl text-ink tracking-tight">
+          <h2 className="font-display font-semibold text-4xl md:text-5xl text-ink dark:text-ink-d tracking-tight">
             SocCraft
           </h2>
-          <p className="mt-4 text-muted max-w-2xl text-base md:text-lg leading-relaxed">
+          <p className="mt-4 text-muted dark:text-muted-d max-w-2xl text-base md:text-lg leading-relaxed">
             An AI-enhanced, open-source SOC framework with SOAR capabilities,
             built to cut incident response time by over 98% compared to
             manual processes.
@@ -58,12 +58,12 @@ export default function FeaturedProject() {
           {features.map((f) => (
             <div
               key={f.title}
-              className="border border-line rounded-lg p-5 bg-panel/40"
+              className="border border-line dark:border-line-d rounded-lg p-5 bg-panel/40 dark:bg-panel-d/40"
             >
-              <h3 className="font-display font-medium text-ink text-lg">
+              <h3 className="font-display font-medium text-ink dark:text-ink-d text-lg">
                 {f.title}
               </h3>
-              <p className="mt-2 text-sm text-muted leading-relaxed">
+              <p className="mt-2 text-sm text-muted dark:text-muted-d leading-relaxed">
                 {f.body}
               </p>
             </div>
@@ -71,21 +71,21 @@ export default function FeaturedProject() {
         </Reveal>
 
         <Reveal className="mt-12">
-          <div className="font-mono text-xs text-muted tracking-widest uppercase mb-3">
+          <div className="font-mono text-xs text-muted dark:text-muted-d tracking-widest uppercase mb-3">
             performance — validated results
           </div>
           <ResponseTimeline />
         </Reveal>
 
         <Reveal className="mt-12">
-          <div className="font-mono text-xs text-muted tracking-widest uppercase mb-3">
+          <div className="font-mono text-xs text-muted dark:text-muted-d tracking-widest uppercase mb-3">
             stack
           </div>
           <div className="flex flex-wrap gap-2">
             {stack.map((tech) => (
               <span
                 key={tech}
-                className="font-mono text-xs px-3 py-1.5 border border-line rounded-full text-ink/80 bg-paper"
+                className="font-mono text-xs px-3 py-1.5 border border-line dark:border-line-d rounded-full text-ink/80 dark:text-ink-d/80 bg-paper dark:bg-paper-d"
               >
                 {tech}
               </span>
@@ -98,7 +98,7 @@ export default function FeaturedProject() {
             href="https://github.com/th1lak-d/SocCraft"
             target="_blank"
             rel="noreferrer"
-            className="px-5 py-2.5 bg-ink text-paper text-sm font-medium rounded-md hover:bg-accent transition-colors"
+            className="px-5 py-2.5 bg-ink dark:bg-ink-d text-paper dark:text-paper-d text-sm font-medium rounded-md hover:bg-accent dark:hover:bg-active transition-colors"
           >
             View repository ↗
           </a>
