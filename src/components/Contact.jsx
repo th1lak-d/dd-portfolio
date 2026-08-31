@@ -9,14 +9,14 @@ const channels = [
   },
   {
     label: "Email",
-    value: "adding soon",
+    value: "th1lak.d3@proton.me",
     href: null,
     live: false,
   },
   {
     label: "LinkedIn",
-    value: "adding soon",
-    href: null,
+    value: "linkedin.com/in/th1lak-d",
+    href: "https://linkedin.com/in/th1lak-d",
     live: false,
   },
 ];
